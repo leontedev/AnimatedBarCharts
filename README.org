@@ -1,0 +1,21 @@
+* Animated Progress Bar Charts
+
+A SwiftUI experiment on capsules. Starting point tutorial: [[https://www.youtube.com/watch?v=5lSJzzI2fj8][Let's Build That App]]
+
+[[gif]] [[screen.png]]
+
+ - ZStack with a colored background:
+#+BEGIN_SRC Swift
+Color("appBackground").edgesIgnoringSafeArea(.all)
+#+END_SRC
+ - Adding a "Color Literal" (autocompletion) to pick colors and use them directly in code. The Color() view is necessary.
+ - Creating a "Progress Bar" using two Capsules()
+#+BEGIN_SRC Swift
+            ZStack(alignment: .bottom) {
+                Capsule().frame(width: 30, height: 200)
+                    .foregroundColor(Color("emptyCapsule"))
+                Capsule().frame(width: 30, height: value)
+                    .foregroundColor(Color("filledCapsule"))
+            }
+#+END_SRC
+ - Adding animation on the entire HStack view which contains all the horizontal progress bars using the .animation(.default) modifier.
