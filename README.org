@@ -2,7 +2,7 @@
 
 A SwiftUI experiment on capsules. Starting point tutorial: [[https://www.youtube.com/watch?v=5lSJzzI2fj8][Let's Build That App]]
 
-[[gif]] [[screen.png]]
+[[gif.gif]] [[screen2.png]]
 
  - ZStack with a colored background:
 #+BEGIN_SRC Swift
