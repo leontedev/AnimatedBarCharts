@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8946658F2372E66400932E43 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946658E2372E66400932E43 /* ArcView.swift */; };
+		894665912372EB5B00932E43 /* QuarterArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665902372EB5B00932E43 /* QuarterArcView.swift */; };
 		89493D26234E4F8E00379B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89493D25234E4F8E00379B0A /* AppDelegate.swift */; };
 		89493D28234E4F8E00379B0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89493D27234E4F8E00379B0A /* SceneDelegate.swift */; };
 		89493D2A234E4F8E00379B0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89493D29234E4F8E00379B0A /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8946658E2372E66400932E43 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		894665902372EB5B00932E43 /* QuarterArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterArcView.swift; sourceTree = "<group>"; };
 		89493D22234E4F8E00379B0A /* AnimatedBarCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedBarCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89493D25234E4F8E00379B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89493D27234E4F8E00379B0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8946658D2372E64C00932E43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89493D29234E4F8E00379B0A /* ContentView.swift */,
+				8946658E2372E66400932E43 /* ArcView.swift */,
+				894665902372EB5B00932E43 /* QuarterArcView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		89493D19234E4F8E00379B0A = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,9 @@
 		89493D24234E4F8E00379B0A /* AnimatedBarCharts */ = {
 			isa = PBXGroup;
 			children = (
+				8946658D2372E64C00932E43 /* Views */,
 				89493D25234E4F8E00379B0A /* AppDelegate.swift */,
 				89493D27234E4F8E00379B0A /* SceneDelegate.swift */,
-				89493D29234E4F8E00379B0A /* ContentView.swift */,
 				89493D2B234E4F9500379B0A /* Assets.xcassets */,
 				89493D30234E4F9500379B0A /* LaunchScreen.storyboard */,
 				89493D33234E4F9500379B0A /* Info.plist */,
@@ -147,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89493D26234E4F8E00379B0A /* AppDelegate.swift in Sources */,
+				8946658F2372E66400932E43 /* ArcView.swift in Sources */,
+				894665912372EB5B00932E43 /* QuarterArcView.swift in Sources */,
 				89493D28234E4F8E00379B0A /* SceneDelegate.swift in Sources */,
 				89493D2A234E4F8E00379B0A /* ContentView.swift in Sources */,
 			);
